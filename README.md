@@ -31,4 +31,8 @@ Part 1: Setup
 
 Part 2: Background Information
 
+&nbsp;&nbsp;&nbsp;&nbsp;Description of ModelingToolkit.jl
+
+&nbsp;&nbsp;&nbsp;&nbsp;Summary of Concepts Used
+
 Part 3: Solving Nonlinear Algebraic Equations
