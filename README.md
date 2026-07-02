@@ -36,3 +36,7 @@ Part 2: Background Information
 &nbsp;&nbsp;&nbsp;&nbsp;Summary of Concepts Used
 
 Part 3: Solving Nonlinear Algebraic Equations
+
+&nbsp;&nbsp;&nbsp;&nbsp;Solvers Used
+
+&nbsp;&nbsp;&nbsp;&nbsp;Problem to be Solved -- Ion-Exchange Equilibrium
