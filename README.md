@@ -8,9 +8,9 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulation of chemical and biochemical reaction networks| Free and open source |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
-|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulation of chemical processes such as vapor-liquid equilibrium flash etc.| Free and open source |
+|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulation of chemical processes (such as vapor-liquid equilibrium flash etc.)| Free and open source |
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
-|[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically finding the system of governing symbolic equations that corresponds to a dataset| Free and open source |
+|[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of time functions (e.g., mean, variance, etc.) instead of the time functions themselves| Free and open source|
 |[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry| Free for non-commercial use, a monthly fee otherwise |
