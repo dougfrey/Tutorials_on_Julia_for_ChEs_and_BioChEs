@@ -1,4 +1,4 @@
-## Tutorials on symbolic-numeric programming using Julia for ChEs and BioChEs
+## Tutorials on Julia for ChEs and BioChEs
 
 ### Introduction
 
