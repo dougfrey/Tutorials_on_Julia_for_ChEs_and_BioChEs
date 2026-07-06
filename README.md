@@ -28,7 +28,11 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 ### References
 
-1.  S. Gowda, Symbolic-Numeric Programming in Scientific Computing, PhD thesis, MIT, 2024.
+1.  Y. Ma et al., ModelingToolkit: A composable graph transformation system for equation-based modeling, ArXiv:2103.05244v3, 2022.
+
+2.  S. Gowda, Symbolic-Numeric Programming in Scientific Computing, PhD thesis, MIT, 2024.
+
+3.  [link](https://juliahub.com/blog/a-next-gen-approach-to-modeling)
 
 ### Links to tutorial sections:
 
