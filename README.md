@@ -32,8 +32,6 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 2.  S. Gowda, Symbolic-Numeric Programming in Scientific Computing, PhD thesis, MIT, 2024.
 
-3.  [link](https://juliahub.com/blog/a-next-gen-approach-to-modeling)
-
 ### Links to tutorial sections:
 
 Part 1: Setup
