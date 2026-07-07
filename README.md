@@ -32,6 +32,8 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 2.  S. Gowda, Symbolic-Numeric Programming in Scientific Computing, PhD thesis, MIT, 2024.
 
+3.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leverating ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+
 ### Links to tutorial sections:
 
 Part 1: Setup
