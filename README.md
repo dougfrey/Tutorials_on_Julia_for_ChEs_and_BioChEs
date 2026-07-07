@@ -30,7 +30,7 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 ### References
 
-1.  Y. Ma et al., ModelingToolkit: A composable graph transformation system for equation-based modeling, ArXiv:2103.05244v3, 2022.
+1.  Y. Ma et al., [ModelingToolkit: A composable graph transformation system for equation-based modeling](https://arxiv.org/abs/2103.05244), ArXiv:2103.05244v3, 2022.
 
 2.  S. Gowda, [Symbolic-Numeric Programming in Scientific Computing](https://dspace.mit.edu/entities/publication/185c3adf-eb94-4acf-9e77-f66cb773b71b), PhD thesis, MIT, 2024.
 
