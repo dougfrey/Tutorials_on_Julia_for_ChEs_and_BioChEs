@@ -20,7 +20,7 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves| Free and open source|
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry| Free for non-commercial use, a monthly fee otherwise |
+|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see ref. 3)| Free for non-commercial use, a monthly fee otherwise |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics | Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://juliahub.com/products/dyad)| A declarative, physical modeling language that compiles into ModelingToolkit.jl code and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
@@ -32,7 +32,7 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 2.  S. Gowda, Symbolic-Numeric Programming in Scientific Computing, PhD thesis, MIT, 2024.
 
-3.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leverating ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+3.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
 
 ### Links to tutorial sections:
 
