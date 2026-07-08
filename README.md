@@ -4,7 +4,7 @@
 
 This repository contains tutorials for the free and open-source [Julia](https://julialang.org/) programming language that are especially tailored for chemical and biochemical engineers (ChEs and BioChEs). Julia is a relatively new programming language that provides an unequaled combination of programming ease and computational speed. In addition, the tutorials shown here emphasize using the Julia software package [ModelingToolkit.jl](https://docs.sciml.ai/ModelingToolkit/stable/) in order to combine symbolic and numeric approaches for solving problems of interest to ChEs and BioChEs. ModelingToolkit.jl provides an efficient user interface for Julia packages relevant to symbolic-numeric computing such as [Symbolics.jl](https://docs.sciml.ai/Symbolics/stable/), which is a fast computer algebra system, and [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), which is a highly developed package for numerical solutions of differential equations. Combining symbolic and numeric approaches in this way enables both more effective solution methods and more efficient compiled numerical code for existing methods. In addition, a pure Julia, single-language approach helps to coordinate the various parts of the overall computational method. ModelingToolkit.jl can also perform either causal or acausal simulations, in contrast to [Modelica](https://modelica.org/), which is strictly acausual, and [Simulink](https://www.mathworks.com/products/simulink.html), which is strictly causal. 
 
-In the typical university curricula for undergraduate and graduate ChE and BioChE, computational problems are formulated so that they are "toy" in nature and essentially any computational platform will suffice for their solution. In contrast, this tutorial is aimed at realistic, real-world, and large-scale applications where computational efficiency is important. This tutorial is especially aimed at the common situation where someone is using a typical laptop or desktop personal computer but wishesto achieve the performance of a high-end workstation.       
+In the typical university curricula for undergraduate and graduate ChE and BioChE, computational problems are formulated so that they are "toy" in nature and essentially any computational platform will suffice for their solution. In contrast, this tutorial is aimed at realistic, real-world, and large-scale applications where computational efficiency is important. This tutorial is especially aimed at the common situation where someone is using a typical laptop or desktop personal computer and needs to achieve the performance of a high-end workstation.       
 
 Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs.  So, fasten your seatbelts, hold on to your hats, and join us for a wild ride in the Julia language ecosystem.
 
@@ -14,7 +14,7 @@ There are several software libraries in the Julia ecosystem that are built on to
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
-|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulation of chemical and biochemical reaction networks| Free and open source |
+|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulation of chemical and biochemical reaction networks (see Ref. 3)| Free and open source |
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
@@ -22,7 +22,7 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves| Free and open source|
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see ref. 3)| Free for non-commercial use, a monthly fee otherwise |
+|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 4)| Free for non-commercial use, a monthly fee otherwise |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics | Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into ModelingToolkit.jl code and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
@@ -34,7 +34,9 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 2.  S. Gowda, [Symbolic-Numeric Programming in Scientific Computing](https://dspace.mit.edu/entities/publication/185c3adf-eb94-4acf-9e77-f66cb773b71b), PhD thesis, MIT, 2024.
 
-3.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+3.  T.E. Loman et al., [Catalyst: Fast and flexible modeling of reaction networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC10584191/), PLOS Computational Biology, e1011530, 2023.
+
+4.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
 
 ### Links to tutorial sections:
 
