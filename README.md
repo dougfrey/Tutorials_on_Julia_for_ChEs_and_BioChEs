@@ -14,7 +14,7 @@ There are several software libraries in the Julia ecosystem that are built on to
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
-|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulation of chemical and biochemical reaction networks (see Ref. 3)| Free and open source |
+|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Modeling of chemical and biochemical reaction networks (see Ref. 3)| Free and open source |
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
