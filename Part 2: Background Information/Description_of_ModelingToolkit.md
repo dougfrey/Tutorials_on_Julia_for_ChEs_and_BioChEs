@@ -1,6 +1,6 @@
 ##  What is ModelingToolkit.jl?
 
-ModelingToolkit.jl (MTK) is a modeling language built on top of the Julia programming language. MTK has similarities with Simulink/Simscape in Matlab and with Modelica in the Modelica Association Project. But MTK has unique features compared to these other systems including seamless integration of symbolic and numerical computations and automatic creation of high-performance numerical code using "Just in Time" (JIT) compiling. MTK also provides an entry point for advanced methods such as scientific machine learning where machine learning and mechanistic equation-based modeling are combined.
+ModelingToolkit.jl (MTK) is a modeling language built on top of the Julia programming language. MTK has similarities with Simulink/Simscape in Matlab and with Modelica in the Modelica Association Project. But MTK has unique features compared to these other systems including seamless integration of symbolic and numerical computations and automatic creation of high-performance compiled code using "Just in Time" (JIT) compiling. MTK also provides an entry point for advanced methods such as scientific machine learning where machine learning and mechanistic equation-based modeling are combined.
 
 Additional information about MTK is located here:
 
