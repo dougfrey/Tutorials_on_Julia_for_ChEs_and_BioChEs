@@ -56,7 +56,7 @@ Part 2: Background Information
 
 &nbsp;&nbsp;&nbsp;&nbsp;Working with Vectors
 
-&nbsp;&nbsp;&nbsp;&nbsp;Data Types and Fields
+&nbsp;&nbsp;&nbsp;&nbsp;Number Types and Data Fields
 
 Part 3: Solving Nonlinear Algebraic Equations
 
@@ -64,8 +64,10 @@ Part 3: Solving Nonlinear Algebraic Equations
 
 &nbsp;&nbsp;&nbsp;&nbsp;Problem to be Solved -- Ion-Exchange Equilibrium
 
-&nbsp;&nbsp;&nbsp;&nbsp;Basic Approaches
+&nbsp;&nbsp;&nbsp;&nbsp;Basic Approach
 
-&nbsp;&nbsp;&nbsp;&nbsp;Working with Highly Nonlinear Systems
+&nbsp;&nbsp;&nbsp;&nbsp;Working with Indices
 
-&nbsp;&nbsp;&nbsp;&nbsp;Working with Large Systems
+&nbsp;&nbsp;&nbsp;&nbsp;Highly Nonlinear Systems
+
+&nbsp;&nbsp;&nbsp;&nbsp;Large Systems
