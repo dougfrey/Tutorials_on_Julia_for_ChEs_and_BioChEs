@@ -56,7 +56,7 @@ Part 2: Background Information
 
 &nbsp;&nbsp;&nbsp;&nbsp;Working with Vectors
 
-&nbsp;&nbsp;&nbsp;&nbsp;Number Types and Data Fields
+&nbsp;&nbsp;&nbsp;&nbsp;Types and Fields
 
 Part 3: Solving Nonlinear Algebraic Equations
 
