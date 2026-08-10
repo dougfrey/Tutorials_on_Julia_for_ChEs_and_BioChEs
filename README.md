@@ -20,11 +20,11 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
-|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulation of chemical processes (such as single-stage equilibrium flash etc.)| Free and open source |
+|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 4)| Free and open source |
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves| Free and open source|
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 4)| Free for non-commercial use, a monthly fee otherwise |
+|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 5)| Free for non-commercial use, a monthly fee otherwise |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
@@ -34,11 +34,13 @@ In addition to general applications of ModelingToolkit.jl, this tutotial also in
 
 1.  Y. Ma et al., [ModelingToolkit: A composable graph transformation system for equation-based modeling](https://arxiv.org/abs/2103.05244), ArXiv:2103.05244v3, 2022.
 
-2.  S. Gowda, [Symbolic-Numeric Programming in Scientific Computing](https://dspace.mit.edu/entities/publication/185c3adf-eb94-4acf-9e77-f66cb773b71b), PhD thesis, MIT, 2024.
+2.  S. Gowda, [Symbolic-numeric programming in scientific computing](https://dspace.mit.edu/entities/publication/185c3adf-eb94-4acf-9e77-f66cb773b71b), PhD thesis, MIT, 2024.
 
 3.  T.E. Loman et al., [Catalyst: Fast and flexible modeling of reaction networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC10584191/), PLOS Computational Biology, e1011530, 2023.
 
-4.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+4.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026. 
+
+5.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
 
 ### Links to tutorial sections:
 
