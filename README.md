@@ -28,7 +28,7 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
-In addition to general applications of ModelingToolkit.jl, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the above table since symbolic-numeric computing is central to the operation of these two packages. This tutorial also brirefly includes the use of ProcessSimulator.jl.  Although this package is in an early stage of development, it nevertheless shows the future of chemical process modeling since it is free and open source, fully differentiable, highly performant, easily customizable, and able to bridge symbolic and numeric representations. More generally, since all of the above software packages have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
+In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the above table since symbolic-numeric computing is central to the operation of these two packages. This tutorial also brirefly includes the use of ProcessSimulator.jl.  Although this package is in an early stage of development, it nevertheless shows the future of chemical process modeling since it is free and open source, fully differentiable, highly performant, easily customizable, and able to bridge symbolic and numeric representations. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
 
 ### References
 
@@ -52,7 +52,7 @@ Part 1: Setup
 
 Part 2: Background Information
 
-&nbsp;&nbsp;&nbsp;&nbsp;Description of ModelingToolkit.jl
+&nbsp;&nbsp;&nbsp;&nbsp;Description of ModelingToolkit.jl (MTK)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Summary of Programming Concepts Used
 
