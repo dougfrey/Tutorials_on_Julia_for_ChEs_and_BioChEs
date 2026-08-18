@@ -29,7 +29,7 @@ For the case of solving a system of ODEs, the procedure is as follows:<br>
 </span>
 <br>
 <br>
-Similar procedures apply to solving optimization problems, systems of PDEs and many other such problems. As just mentioned, MTK permits symbolic pre-processing prior to numerical computations.  In terms of A, B, C, D and E the situation is as follows:<br>
+Similar procedures apply to solving optimization problems, systems of PDEs and many other such problems. As just mentioned, MTK permits symbolic preprocessing prior to numerical computations.  In terms of A, B, C, D and E the situation is as follows:<br>
 <br>
 
 <span style="font-family:Consolas; font-size:1em;">
