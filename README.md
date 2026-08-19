@@ -57,7 +57,7 @@ Part 2: Background Information
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Description of ModelingToolkit.jl (MTK)](https://github.com/dougfrey/Tutorials_on_Julia_for_ChEs_and_BioChEs/blob/main/Part%202%3A%20Background%20Information/Description_of_ModelingToolkit.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;Summary of Programming Concepts Used
+&nbsp;&nbsp;&nbsp;&nbsp;[Summary of Programming Concepts Used](https://github.com/dougfrey/Tutorials_on_Julia_for_ChEs_and_BioChEs/blob/main/Part%202%3A%20Background%20Information/Summary_of_Programming_Concepts_Used.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Working with Vectors
 
