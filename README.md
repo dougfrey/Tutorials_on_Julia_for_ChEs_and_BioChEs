@@ -10,9 +10,9 @@ In the typical university curricula for undergraduate and graduate ChE and BioCh
 
 Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs.  So, fasten your seatbelts, hold on to your hats, and join us for a wild ride in the Julia language ecosystem.
 
-### Julia packages built on ModelingToolkit.jl (MTK)
+### Julia packages built upon ModelingToolkit.jl (MTK)
 
-There are several software libraries in the Julia ecosystem that are built on top of MTK to take advantage of its features. Examples, in alphabetical order, include the following (note that this list excludes packages that are less developed and documented):
+There are several software libraries in the Julia ecosystem that are built upon MTK to take advantage of its features. Examples, in alphabetical order, include the following (note that this list excludes packages that are less developed and documented):
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
