@@ -42,4 +42,6 @@ Similar procedures apply to solving optimization problems, systems of PDEs and m
 </span>
 <br>
 
-It is also possible to proceed backwards through the above procedure and convert a numerical representation of a problem into a symbolic representation.  For example, if the compiled problem D' was produced outside of MTK, it can be converted into the symbolic representation B' using B' = modelingtoolkitize(D') so that symbolic compilation can be applied to B' to ultimately yield improved numberical code. The usefulness of the above approach will be illustrated in later parts of this tutorial.
+It is also possible to proceed backwards through the above procedure and convert a numerical representation of a problem into a symbolic representation.  For example, if the compiled problem D' was produced outside of MTK, it can be converted into the symbolic representation B' using B' = modelingtoolkitize(D') so that symbolic compilation can be applied to B' to ultimately yield improved numberical code. 
+
+The usefulness of the above approach will be illustrated in later parts of this tutorial.
