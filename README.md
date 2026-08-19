@@ -67,7 +67,7 @@ Part 3: Solving Nonlinear Algebraic Equations
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Solvers Used](https://github.com/dougfrey/Tutorials_on_Julia_for_ChEs_and_BioChEs/blob/main/Part%203%3A%20Solving%20Nonlinear%20Algebraic%20Equations/1_Solvers_Used.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;Problem to be Solved: Ion-Exchange Equilibrium
+&nbsp;&nbsp;&nbsp;&nbsp;[Problem to be Solved: Ion-Exchange Equilibrium](https://github.com/dougfrey/Tutorials_on_Julia_for_ChEs_and_BioChEs/blob/main/Part%203%3A%20Solving%20Nonlinear%20Algebraic%20Equations/2_Problem_to_be_Solved--Ion_Exchange_Equilibrium.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Basic Approach
 
