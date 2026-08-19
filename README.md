@@ -12,22 +12,24 @@ Although many tutorials exist for the Julia programming language, none have the 
 
 ### Julia packages built on ModelingToolkit.jl (MTK)
 
-There are several software libraries in the Julia ecosystem that are built on top of MTK to take advantage of its features. Examples include the following:
+There are several software libraries in the Julia ecosystem that are built on top of MTK to take advantage of its features. Examples, in alphabetical order, include the following (note that this list excludes packages that are less developed and supported):
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
+|[Aerosol.jl](https://aerosol.earthsci.dev/stable/)| Modeling of atmospheric aerosols| Free and open source |
 |[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Modeling of chemical and biochemical reaction networks (see Ref. 3)| Free and open source |
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source |
+|[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
-|[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
-|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 4)| Free and open source |
-|[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves| Free and open source|
-|[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 |[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 5)| Free for non-commercial use, a monthly fee otherwise |
+|[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
+|[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
+|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 4)| Free and open source |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
-|[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
+|[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
+|[WildlandFire.jl](https://fire.earthsci.dev/dev/)| Modeling wild fires| Free and open source|
 
 In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the above table since symbolic-numeric computing is central to the operation of these two packages. This tutorial also brirefly includes the use of ProcessSimulator.jl.  Although this package is in an early stage of development, it nevertheless shows the future of chemical process modeling since it is free and open source, fully differentiable, highly performant, easily customizable, and able to bridge symbolic and numeric representations to enhance the modeling. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
 
