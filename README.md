@@ -67,7 +67,7 @@ Part 3: Solving Nonlinear Algebraic Equations
 
 &nbsp;&nbsp;&nbsp;&nbsp;Solvers Used
 
-&nbsp;&nbsp;&nbsp;&nbsp;Problem to be Solved -- Ion-Exchange Equilibrium
+&nbsp;&nbsp;&nbsp;&nbsp;Problem to be Solved: Ion-Exchange Equilibrium
 
 &nbsp;&nbsp;&nbsp;&nbsp;Basic Approach
 
