@@ -1,4 +1,4 @@
-##  Summary of Programming Concepts and Sytax Used
+##  Summary of Programming Concepts and Syntax Used
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This tutorial is intended for those who already have some programming experience (e.g., with MATLAB) and who want to learn simultaneously the basics of Julia and ModelingToolkit.jl in an efficient way so that these tools can be applied to modeling problems. To facilitate this goal, the basic concepts and syntax used in this tutorial is summarized below.
 
