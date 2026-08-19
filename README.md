@@ -48,7 +48,7 @@ In addition to general applications of MTK, this tutotial also includes the spec
 
 6.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026.
 
-7.  H. Sletmoen, [SymBoltz.jl: A symbolic-numeric, approximation free, and differentiable linear Einstein-Boltzmann solver](https://www.aanda.org/articles/aa/full_html/2026/03/aa57450-25/aa57450-25.html) Astronomy and Astrophysics, vol. 707, A128, 2026. 
+7.  H. Sletmoen, [SymBoltz.jl: A symbolic-numeric, approximation free, and differentiable linear Einstein-Boltzmann solver](https://www.aanda.org/articles/aa/full_html/2026/03/aa57450-25/aa57450-25.html), Astronomy and Astrophysics, vol. 707, A128, 2026. 
 
 ### Links to tutorial sections:
 
