@@ -12,7 +12,7 @@ Although many tutorials exist for the Julia programming language, none have the 
 
 ### Julia packages built upon ModelingToolkit.jl (MTK)
 
-There are several software libraries in the Julia ecosystem that are built upon MTK to take advantage of its features. Examples, in alphabetical order, include the following (note that this list excludes packages that are less developed and documented):
+There are several software libraries in the Julia ecosystem that are built upon MTK to take advantage of its features. Selected examples, in alphabetical order, include the following: 
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
