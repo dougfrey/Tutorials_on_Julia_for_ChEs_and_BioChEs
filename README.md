@@ -23,10 +23,10 @@ There are several software libraries in the Julia ecosystem that are built on to
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source |
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves| Free and open source|
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 5)| Free for non-commercial use, a monthly fee otherwise |
+|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 4)| Free for non-commercial use, a monthly fee otherwise |
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
-|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 4)| Free and open source |
+|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 5)| Free and open source |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
 |[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 |[WildlandFire.jl](https://fire.earthsci.dev/dev/)| Modeling wild fires| Free and open source|
@@ -41,9 +41,9 @@ In addition to general applications of MTK, this tutotial also includes the spec
 
 3.  T.E. Loman et al., [Catalyst: Fast and flexible modeling of reaction networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC10584191/), PLOS Computational Biology, e1011530, 2023.
 
-4.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026. 
+4.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
 
-5.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+5.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026. 
 
 ### Links to tutorial sections:
 
