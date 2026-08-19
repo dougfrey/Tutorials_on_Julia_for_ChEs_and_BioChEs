@@ -55,7 +55,7 @@ Part 1: Setup
 
 Part 2: Background Information
 
-&nbsp;&nbsp;&nbsp;&nbsp;Description of ModelingToolkit.jl (MTK)
+&nbsp;&nbsp;&nbsp;&nbsp;[Description of ModelingToolkit.jl (MTK)](https://github.com/dougfrey/Tutorials_on_Julia_for_ChEs_and_BioChEs/blob/main/Part%202%3A%20Background%20Information/Description_of_ModelingToolkit.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Summary of Programming Concepts Used
 
