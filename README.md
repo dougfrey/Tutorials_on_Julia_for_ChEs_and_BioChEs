@@ -46,6 +46,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
+|[CirculatorySystemModels.jl](https://ts-cubed.github.io/CirculatorySystemModels.jl/stable/)| Modeling of circulatory blood flow| Free and open source|
 |[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 7)| Free for non-commercial use, a monthly fee otherwise|
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
 |[SymBoltz.jl](https://hersle.github.io/SymBoltz.jl/stable/)| Solving the Einstein-Boltzmann equation in cosmology (see Ref. 8)| Free and open source| 
