@@ -1,6 +1,6 @@
 ## Tutorials on Symbolic-Numeric Programming using Julia for ChEs, BioChEs, and EnvEs
 
-### What is symbolic-numeric programming
+### What is symbolic-numeric programming?
 
 As described in more detail in Ref. 1 given below, all mechanistic engineering models start as a set of symbolic equations, possibly produced by pencil and paper or, in more recent times, by symbolic software such as Mathematica or Maple. Then, in a subsequent step, this symbolic representation is transformed (often manually) into numerical code and finally compiled into performant machine code. However, there is much to be gained by combining these steps so that the symbolic and numeric representations of a model co-exist in a single environment. When this is done these two representations can inform each other and co-evolve synergistically when needed. This strategy, termed symbolic-numeric programming, yields new approaches for creating and using models and more efficient final compiled code. 
 
