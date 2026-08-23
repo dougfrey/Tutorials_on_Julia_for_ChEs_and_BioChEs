@@ -4,7 +4,7 @@
 
 As described in more detail in Ref. 1 given below, all mechanistic engineering models start as a set of symbolic equations, possibly produced by pencil and paper or, in more recent times, by symbolic software such as Mathematica or Maple. Then, in a subsequent step, this symbolic representation is transformed (often manually) into numerical code and finally compiled into performant machine code. However, there is much to be gained by combining these steps so that the symbolic and numeric representations of a model co-exist in a single environment. When this is done these two representations can inform each other and co-evolve synergistically when needed. This strategy, termed symbolic-numeric programming, yields new approaches for creating and using models and more efficient final compiled code. 
 
-### The Julian Approach
+### The Julian approach
 
 This repository introduces the tutorial user to symbolic-numeric programming using the free and open-source [Julia](https://julialang.org/) programming language. Julia is a relatively new programming language (version 1.0 was released in 2018) that provides an unequaled combination of programming ease and computational speed. In the Matlab and Python programming, user supplied script is written in one language (such as pure Python), libraries might be written in a second language (such as Fortan, to ensure performance), and the interpreter might be written in still another language (such as C). In constrast, in Julia all components of the ecosystem are written in a single language, which is native Julia, and Just-in_time (JIT) compiling is used instread of an interpreter. This latter structure leads to very high levels of library composability and compatibility, compiler efficiency, and computational speed, and makes Julia especially suitable for symbolic-numeric programming.  
 
@@ -37,7 +37,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[StructuralIdentifiability.jl](https://docs.sciml.ai/StructuralIdentifiability/stable/)| Deterime whether parameters in an ODE model can be identified using data| Free and open source|
 |[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 
-#### Packages in related areas (in alphabetical order)
+#### Packages in other areas (in alphabetical order)
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
