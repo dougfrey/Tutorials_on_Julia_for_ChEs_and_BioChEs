@@ -20,9 +20,9 @@ In the typical university curricula for undergraduate and graduate students, com
 
 Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs. So, fasten your seatbelts, hold on to your hats, and join us for an exciting ride in the Julia language ecosystem.
 
-### Julia packages built upon ModelingToolkit.jl (MTK)
+### Julia package built upon ModelingToolkit.jl (MTK)
 
-There are many software libraries in the Julia ecosystem that are built directly upon MTK, or which closely interoperate with MTK, to take advantage its features such as symbolic-numeric programming.  Selected examples are shown below. 
+There are many software packages in the Julia ecosystem that are built directly upon MTK, or which closely interoperate with MTK, to take advantage its features such as symbolic-numeric programming.  Selected examples are shown below. 
 
 #### Examples of packages incorporating MTK that are relevant to engineering (in alphabetical order)
 
@@ -52,7 +52,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[SymBoltz.jl](https://hersle.github.io/SymBoltz.jl/stable/)| Solving the Einstein-Boltzmann equation in cosmology (see Ref. 8)| Free and open source| 
 |[Wildlandfire.jl](https://fire.earthsci.dev/dev/)| Modeling wildland fires| Free and open source|
 
-In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the first table above since symbolic-numeric programming is central to the operation of these two packages. This tutorial also briefly includes the use ProcessSimulator.jl and Thetis.jl from the first table above. Although these two package are in a relatively early stage of development, they nevertheless show the future of chemical and wastewater process simulation since they are free and open source, fully differentiable, highly performant, easily customizable, highly composible with other libraries, and able to bridge symbolic and numeric representations to enhance the modeling. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
+In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the first table above since symbolic-numeric programming is central to the operation of these two packages. This tutorial also briefly considers the use ProcessSimulator.jl and Thetis.jl from the first table above. Although both of these package are in a relatively early stage of development, they nevertheless show the future of chemical and wastewater process simulation since they are free and open source, fully differentiable, highly performant, easily customizable, highly composible with other libraries, and able to bridge symbolic and numeric representations to enhance the modeling. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
 
 ### References
 
