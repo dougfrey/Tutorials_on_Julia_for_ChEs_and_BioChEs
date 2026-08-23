@@ -32,6 +32,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Modeling of chemical and biochemical reaction networks (see Ref. 4)| Free and open source|
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source|
 |[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise|
+|[EnvironmentalTransport.jl](https://transport.earthsci.dev/dev/)| Modeling environmental mass transfer processes| Free and open source|  
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs using the Method of Lines| Free and open source |
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source|
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves (see Ref. 5)| Free and open source|
