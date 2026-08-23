@@ -6,21 +6,21 @@ As described in more detail in Ref. 1 given below, all mechanistic engineering m
 
 ### The Julian Approach
 
-This repository introduces the tutorial user to the modeling approach described above using the free and open-source [Julia](https://julialang.org/) programming language. Julia is a relatively new programming language that provides an unequaled combination of programming ease and computational speed. Julia is also highly suitable for symbolic-numeric programming due to its reliance on multiple dispatch as a core element (see Ref. 2). The tutorials shown here are especially tailored for chemical, biochemical and environmental engineers (ChEs, BioChEs, and EnvEs) and are also geared toward persons who already know the Matlab programming language since the syntax for Julia and Matlab have many similarities. 
+This repository introduces the tutorial user to the modeling approach described above using the free and open-source [Julia](https://julialang.org/) programming language. Julia is a relatively new programming language (version 1.0 was released in 2018) that provides an unequaled combination of programming ease and computational speed. In the programming ecosystems of Matlab and Python, user supplied script is written in one language (such as pure Python), libraries are written in a second language (such as Fortan or C, to ensure performance), and the interpreter is written in still another language (such as C). In constrast, in Julia all components of the ecosystem are written in a single language, which is native Julia, and Just-in_time (JIT) compiling is used instread of an interpreter. This latter structure leads to very high levels of library composability, compiler efficiency, and computational speed and makes Julia especially suitable for symbolic-numeric programming.  
 
-The tutorials shown here also emphasize using the Julia software package [ModelingToolkit.jl](https://docs.sciml.ai/ModelingToolkit/stable/) (MTK) in order to combine symbolic and numeric approaches for solving problems (see Ref. 3). MTK provides an efficient user interface that coordinates relevant packages such as [Symbolics.jl](https://docs.sciml.ai/Symbolics/stable/), which is a fast computer algebra system, and [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), which is a state-of-the-art package for numerical solutions of differential equations. As mentioned above, combining symbolic and numeric approaches enables more effective solution methods and more efficient compiled numerical code. For example, as will be demonstrated later, this approach makes it simple to efficiently generate a symbolic Jacobian when solving nonlinear algebraic equations even when the system is very large. In many cases this yields the fastest numerical code for this type of problem. Furthermore, due to MTK's many automated features, this modeling approach can be accomplished by someone with modest mathematical and numerical modeling skills. 
+The tutorials shown here also emphasize using the Julia software package [ModelingToolkit.jl](https://docs.sciml.ai/ModelingToolkit/stable/) (MTK) in order to combine symbolic and numeric approaches for solving problems (see Refs. 2 and 3). MTK provides an efficient user interface that coordinates relevant packages such as [Symbolics.jl](https://docs.sciml.ai/Symbolics/stable/), which is a fast computer algebra system, and [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), which is a state-of-the-art package for numerical solutions of differential equations. As mentioned above, combining symbolic and numeric approaches enables more effective solution methods and more efficient compiled numerical code. For example, as will be demonstrated later, this approach makes it simple to efficiently generate a symbolic Jacobian when solving nonlinear algebraic equations even when the system is very large. In many cases this yields the fastest numerical code for this type of problem. Furthermore, due to MTK's many automated features, this modeling approach can be accomplished by someone with modest mathematical and numerical modeling skills. Finally MTK can be used for either causal or acausal modeling, in contrast to [Modelica](https://modelica.org/), which is strictly acausual, and [Simulink](https://www.mathworks.com/products/simulink.html), which is strictly causal.   
 
-It is also worth noting that a pure Julia, single-language approach helps to coordinate the various parts of the overall computational method. Finally MTK can also be used for either causal or acausal modeling, in contrast to [Modelica](https://modelica.org/), which is strictly acausual, and [Simulink](https://www.mathworks.com/products/simulink.html), which is strictly causal.   
+The tutorials shown here are also especially tailored for chemical, biochemical and environmental engineers (ChEs, BioChEs, and EnvEs) and are also geared toward persons who already know the Matlab programming language since the syntax for Julia and Matlab have many similarities. 
 
 In the typical university curricula for undergraduate and graduate students, computational problems are formulated so that they are "toy" in nature and essentially any computational platform will suffice for their solution. In contrast, this tutorial is aimed at realistic, real-world, and large-scale applications where computational efficiency is important. This tutorial is especially aimed at the common situation where someone is using a typical laptop or desktop personal computer and needs to achieve the performance of a high-end workstation.       
 
-Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs.  So, fasten your seatbelts, hold on to your hats, and join us for an exciting ride in the Julia language ecosystem.
+Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs. So, fasten your seatbelts, hold on to your hats, and join us for an exciting ride in the Julia language ecosystem.
 
 ### Julia packages built upon ModelingToolkit.jl (MTK)
 
-There are many software libraries in the Julia ecosystem that are built directly upon MTK, or which closely interoperate with MTK, to take advantage of the approaches described above. Selected examples, in alphabetical order, include the following: 
+There are many software libraries in the Julia ecosystem that are built directly upon MTK, or which closely interoperate with MTK, to take advantage of symbolic-numeric programming. Selected examples are shown below. 
 
-#### Packages especially relevant to engineering
+#### Packages especially relevant to engineering (in alphabetical order)
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
@@ -32,23 +32,20 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[ModelingToolkitNeuralNets.jl](https://docs.sciml.ai/ModelingToolkitNeuralNets/stable/)| Embed a neural network inside a ModelingToolkit equation system| Free and open source|
 |[MomentClosure.jl](https://sciml.github.io/MomentClosure.jl/dev/)| Solve differential equations in term of the moments of the time functions (e.g., mean, variance, etc.) as opposed to the time functions themselves (see Ref. 5)| Free and open source|
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source|
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 6)| Free for non-commercial use, a monthly fee otherwise|
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source|
-|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 7)| Free and open source|
-|[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
+|[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 6)| Free and open source|
 |[StructuralIdentifiability.jl](https://docs.sciml.ai/StructuralIdentifiability/stable/)| Deterime whether parameters in an ODE model can be identified using data| Free and open source|
-|[SymBoltz.jl](https://hersle.github.io/SymBoltz.jl/stable/)| Solving the Einstein-Boltzmann equation in cosmology (see Ref. 8)| Free and open source| 
 |[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 
-#### Packages in related areas
+#### Packages in related areas (in alphabetical order)
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
-|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 6)| Free for non-commercial use, a monthly fee otherwise|
+|[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry (see Ref. 7)| Free for non-commercial use, a monthly fee otherwise|
 |[PumasAI](https://pumas.ai/)| Pharmacometrics with machine learning| Free for non-commercial use, a monthly fee otherwise |
 |[SymBoltz.jl](https://hersle.github.io/SymBoltz.jl/stable/)| Solving the Einstein-Boltzmann equation in cosmology (see Ref. 8)| Free and open source| 
 
-In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the above table since symbolic-numeric computing is central to the operation of these two packages. This tutorial also briefly includes the use ProcessSimulator.jl and Thetis.jl. Although these two package are in a relatively early stage of development, they nevertheless show the future of chemical and wastewater process modeling since they are free and open source, fully differentiable, highly performant, easily customizable, and able to bridge symbolic and numeric representations to enhance the modeling. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
+In addition to general applications of MTK, this tutotial also includes the specific use of Catalyst.jl and DataDrivenDiffEq.jl from the first above table since symbolic-numeric programming is central to the operation of these two packages. This tutorial also briefly includes the use ProcessSimulator.jl and Thetis.jl. Although these two package are in a relatively early stage of development, they nevertheless show the future of chemical and wastewater process simulation since they are free and open source, fully differentiable, highly performant, easily customizable, and able to bridge symbolic and numeric representations to enhance the modeling. More generally, since all of the above software packages have MTK as their foundation, familiarity with MTK greatly facilitates their use.  
 
 ### References
 
@@ -62,11 +59,11 @@ In addition to general applications of MTK, this tutotial also includes the spec
 
 5.  A. Sukys et al., [MomentClosure.jl: Automated moment closure approximations in Julia](https://academic.oup.com/bioinformatics/article/38/1/289/6309452) Bioinformatics, vol. 38, 289-290, 2022.
 
-6.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
+6.  7.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026.
 
-7.  V. V. Santana et al., [ProcessSimulator.jl: A symbolic-numeric open-source framework for process simulation in Julia language](https://psecommunity.org/LAPSE:2026.0385), Systems and Control Transactions, vol. 5, 1439-1444, 2026.
+7.  D. Hofmann et al., [Increasing spectral dynamic causal modeling (sDCM) flexibility and speed by leveraging ModelingToolkit and automated differentiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12330849/), Imaging Neuroscience, vol. 3, 2025
 
-8.  H. Sletmoen, [SymBoltz.jl: A symbolic-numeric, approximation free, and differentiable linear Einstein-Boltzmann solver](https://www.aanda.org/articles/aa/full_html/2026/03/aa57450-25/aa57450-25.html), Astronomy and Astrophysics, vol. 707, A128, 2026. 
+9.  H. Sletmoen, [SymBoltz.jl: A symbolic-numeric, approximation free, and differentiable linear Einstein-Boltzmann solver](https://www.aanda.org/articles/aa/full_html/2026/03/aa57450-25/aa57450-25.html), Astronomy and Astrophysics, vol. 707, A128, 2026. 
 
 ### Links to tutorial sections:
 
