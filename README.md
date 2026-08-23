@@ -24,7 +24,7 @@ Although many tutorials exist for the Julia programming language, none have the 
 
 There are many software libraries in the Julia ecosystem that are built directly upon MTK, or which closely interoperate with MTK, to take advantage its features such as symbolic-numeric programming.  Selected examples are shown below. 
 
-#### Packages incorporating MTK that are relevant to engineering (in alphabetical order)
+#### Examples of packages incorporating MTK that are relevant to engineering (in alphabetical order)
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
@@ -42,7 +42,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[StructuralIdentifiability.jl](https://docs.sciml.ai/StructuralIdentifiability/stable/)| Determine whether parameters in an ODE model can be identified using data| Free and open source|
 |[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 
-#### Packages incorporating MTK in other areas (in alphabetical order)
+#### Examples of packages incorporating MTK in other areas (in alphabetical order)
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
