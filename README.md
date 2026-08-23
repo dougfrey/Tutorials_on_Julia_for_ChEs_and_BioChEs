@@ -39,7 +39,7 @@ There are many software libraries in the Julia ecosystem that are built directly
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source|
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source|
 |[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl/blob/sigle-phase-approach/README.md)| Simulation of chemical processes (such as single-stage equilibrium flash etc.) (see Ref. 6)| Free and open source|
-|[StructuralIdentifiability.jl](https://docs.sciml.ai/StructuralIdentifiability/stable/)| Deterime whether parameters in an ODE model can be identified using data| Free and open source|
+|[StructuralIdentifiability.jl](https://docs.sciml.ai/StructuralIdentifiability/stable/)| Determine whether parameters in an ODE model can be identified using data| Free and open source|
 |[Thetis.jl](https://datinfo.gitlab.io/Thetis.jl/stable/)| Modeling of wastewater treatment processes such as activated sludge processes| Free and open source|
 
 #### Packages incorporating MTK in other areas (in alphabetical order)
