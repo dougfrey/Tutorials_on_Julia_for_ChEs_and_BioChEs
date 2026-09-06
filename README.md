@@ -30,6 +30,7 @@ There are many Julia software packages that are built directly upon MTK, or whic
 |  ---  |  ---  |  ---  |
 |[Aerosol.jl](https://aerosol.earthsci.dev/stable/)| Modeling of atmospheric aerosols| Free and open source|
 |[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Modeling of chemical and biochemical reaction networks (see Ref. 4)| Free and open source|
+|[CellMLToolkit.jl](https://docs.sciml.ai/CellMLToolkit/stable/)| Convert a CellML model of a biological cell (in XML format) into a ModelingToolkit.jl representation| Free and open source|
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Automatically find the system of governing symbolic equations that corresponds to a dataset| Free and open source|
 |[Dyad](https://www.hpcwire.com/off-the-wire/juliahub-launches-dyad-for-ai-driven-engineering-and-system-modeling/)| A declarative, physical modeling language that compiles into a ModelingToolkit.jl representation and permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise|
 |[EnvironmentalTransport.jl](https://transport.earthsci.dev/dev/)| Modeling environmental mass transfer processes| Free and open source|  
